@@ -25,12 +25,15 @@ public class App {
 		e2.setEname("John");
 		Employee e3=new Employee();
 		e3.setEname("Henrry");
+		Employee e4=new Employee();
+		e4.setEname("Jerry");
 		
 		List<Employee>all=new ArrayList<Employee>();
 		
 		all.add(e1);
 		all.add(e2);
 		all.add(e3);
+		all.add(e4);
 		
 		Department dept=new Department();
 		dept.setDept_name("IT");
