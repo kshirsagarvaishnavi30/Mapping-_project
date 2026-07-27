@@ -27,6 +27,8 @@ public class App {
 		e3.setEname("Henrry");
 		Employee e4=new Employee();
 		e4.setEname("Jerry");
+		Employee e5=new Employee();
+		e5.setEname("Jenny");
 		
 		List<Employee>all=new ArrayList<Employee>();
 		
@@ -34,6 +36,7 @@ public class App {
 		all.add(e2);
 		all.add(e3);
 		all.add(e4);
+		all.add(e5);
 		
 		Department dept=new Department();
 		dept.setDept_name("IT");
